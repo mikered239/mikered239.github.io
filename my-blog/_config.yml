@@ -2,7 +2,7 @@ title:              Mike's Blog
 email:              mikekohene@gmail.com
 description:        Personal Blog
 author:             Mike Ohene
-baseurl:            ""
+baseurl:            "/"
 url:                "https://mikered239.github.io"
 
 # Social Profiles
