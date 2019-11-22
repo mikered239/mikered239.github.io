@@ -1,6 +1,9 @@
 ---
 layout: main
 ---
+
+{% include pagination.html %}
+
 {% for post in paginator.posts %}
 <article class="post">
   {% if post.img %}
@@ -16,4 +19,4 @@ layout: main
 </article>
 {% endfor %}
 
-{% include pagination.html %}
+
