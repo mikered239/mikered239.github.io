@@ -1,7 +1,7 @@
 ---
-layout: main
+layout: default
 ---
-<!-- {% for post in paginator.posts %}
+{% for post in paginator.posts %}
 <article class="post">
   {% if post.img %}
     <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
@@ -16,4 +16,4 @@ layout: main
 </article>
 {% endfor %}
 
-{% include pagination.html %} -->
+{% include pagination.html %}
