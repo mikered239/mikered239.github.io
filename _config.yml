@@ -1,37 +1,53 @@
-title: Mike's Website
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-permalink: ':title/'
+title: Mike's Blog
+description: Flexton is a responsive and ultra-minimal theme for Jekyll.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://mikered239.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-site-twitter: #if your site has a twitter account, enter it here
+url: "mikered239.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
-# Author Settings
-author: Mike Ohene # add your name
-author-img:  # add your photo
-about-author:  # add description
-social-twitter: # add your Twitter handle
-social-facebook: # add your Facebook handle
-social-github:  # add your Github handle
-social-linkedin: # add your Linkedin handle
-social-email: # add your Email address
+# Author
+author-name:    Mike Ohene
+author-image:   Headsho.jpeg
+author-job:     Aspiring Medical Student
+author-email:   mikered239@gmail.com # Add your email for contant form.
+author-twitter: mike_ohene # Add your twitter account
+about-author:   Aspiring Med Student Who Programs in Spare Time
 
-# Disqus
-discus-identifier: # add your discus identifier
+# Social settings
+social-twitter:   mike_ohene
+social-facebook:
+social-github:    
+social-pinterest: 
+social-instagram: mike_ohene
+social-youtube:
+social-vk:   
+social-linkedin:
 
-# Tracker
-analytics: # Google Analytics
+# Newsletter
+mailchimp: # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
 
-# Build Settings
+# Google Analytics
+google-analytics: # Add your identifier. For example UA-99631805-1
+
+# Comment Section (Disqus)
+disqus-identifier:  # Add your shortname for Disqus Comment. For example mr-brown
+
+# Build settings
 markdown: kramdown
+permalink: /:year/:month/:day/:title/
 plugins:
-  - jekyll-sitemap
   - jekyll-paginate
-  - jemoji
 
-paginate: 8
-paginate_path: "/page/:num"
+paginate: 7
+paginate_path: "/page/:num/"
 
-exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
+include:
+  - _pages
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Exclude from processing.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
