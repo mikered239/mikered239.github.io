@@ -2,7 +2,7 @@
 layout: post
 title: Welcome
 date: 2019-11-21 17:32
-description: Working on a Blog 
+summary: Working on a Blog 
 image: 04.jpg
 tags: [jekyll, ruby]
 categories: Life
