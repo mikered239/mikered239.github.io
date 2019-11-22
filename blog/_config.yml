@@ -1,7 +1,0 @@
-# Site settings
-title: Mike's Blog
-description: Personal Website 
-keywords: Modern, Blogging, Fun
-author: Mike Ohene
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "mikered239.github.io" # the base hostname & protocol for your site
